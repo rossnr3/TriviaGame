@@ -1,0 +1,86 @@
+/*
+    Stylesheet for Totally Trivial Trivia
+*/
+
+
+body {
+    background-image: url("../images/trivia-confusion.jpg");
+    background-color: aqua;             /* In case image doesn't load */
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(243, 237, 148);
+    min-height: 720px;
+}
+
+.card-title {
+    text-align: center;
+    color: rgb(107, 57, 224);
+    background-color: rgb(243, 237, 148);
+}
+
+#start,
+#start-again {
+    text-align: center;
+    padding: 30px auto;
+    border: 1px solid rgb(107, 57, 224);
+    width: 200px;
+    background-color: pink;
+    margin: 100px auto;
+}
+
+#time-remaining {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#current-question {
+    text-align: center;
+    margin: 10px auto;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(243, 237, 148);
+}
+
+.list-group-item {
+    background-color: rgb(243, 237, 148);
+}
+
+.response {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#correct-answer {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#timeout-answer {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#wrong-gif {
+    text-align: center;
+}
+
+#right-gif {
+    text-align: center;
+}
+
+#out-of-time-gif {
+    text-align: center;
+}
+
+#all-done {
+    text-align: center;
+    margin: 10px auto;
+}
